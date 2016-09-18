@@ -1,0 +1,39 @@
+var data={
+	"phases":[
+		{"Name":"Old Age Home Visit", "id":"oldMan", "Des":""},
+		{"Name":"Cleanliness Drive", "id":"clean", "Des":""},
+		{"Name":"Health Checkup Camp", "id":"health", "Des":""},
+		{"Name":"No Food Wastage Campaign", "id":"food", "Des":""},
+		{"Name":"Orphanage Children Interactive Program", "id":"ocip", "Des":""},
+		{"Name":"Plantation", "id":"plant", "Des":""},
+	],
+	"image":[
+		{"Name":"Image 1", "h4":"", "desc":""},
+		{"Name":"Image 2", "h4":"", "desc":""},
+		{"Name":"Image 3", "h4":"", "desc":""},
+		{"Name":"Image 4", "h4":"", "desc":""},
+		{"Name":"Image 5", "h4":"", "desc":""},
+		{"Name":"Image 6", "h4":"", "desc":""},
+		{"Name":"Image 7", "h4":"", "desc":""},
+		{"Name":"Image 8", "h4":"", "desc":""},
+		{"Name":"Image 9", "h4":"", "desc":""},
+		
+	],
+	"testimonial":[
+		{"Message":"", "Name":"Arpit Agarwal", "Des":"", "img":""},
+		{"Message":"", "Name":"Nirmal Nahata", "Des":"", "img":""},
+	],
+	"team":[
+		{"Name":"", "Des":"", "fb":"", "tw":"", "gp":"", "ln":""},
+		{"Name":"", "Des":"", "fb":"", "tw":"", "gp":"", "ln":""},
+		{"Name":"", "Des":"", "fb":"", "tw":"", "gp":"", "ln":""},
+		{"Name":"", "Des":"", "fb":"", "tw":"", "gp":"", "ln":""},
+		{"Name":"", "Des":"", "fb":"", "tw":"", "gp":"", "ln":""},
+		{"Name":"", "Des":"", "fb":"", "tw":"", "gp":"", "ln":""},
+		{"Name":"", "Des":"", "fb":"", "tw":"", "gp":"", "ln":""},
+		{"Name":"", "Des":"", "fb":"", "tw":"", "gp":"", "ln":""},		
+	],
+	"events":[
+		{"Date":"", "Month":"", "Name":"", "Des":"", "link":""}
+	]
+}
