@@ -21,11 +21,6 @@
 <script src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/numscroller-1.0.js"></script>
 <!--/js-->
-<!--fonts-->
-<link href='//fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300' rel='stylesheet' type='text/css'>
-<!--/fonts-->
 <!--startsmothscrolling-->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -146,8 +141,8 @@
 								for (i=0; i<data.image.length; i++){
 									document.write('<div class="col-md-4 gal-left gal_mar"><div class="content-grid-effect slow-zoom vertical text-center">');
 									document.write('<a href="img/'+i+'.jpg" class="b-link-stripe b-animate-go  swipebox"  />');
-									document.wrtie('<div> <div class="img-box">	<img src="img/'+i+'.jpg" alt="'+data.image[i].desc+'" class="img-responsive zoom-img" </div>	<div class="info-box"> <div class="info-content">');
-									documetn.write('<h4>'+data.image[i].h4+'</h4><span class="separator"></span><p>'+data.image[i].desc+'</p></div></div></a></div></div>');
+									document.write('<div> <div class="img-box">	<img src="img/'+i+'.jpg" alt="'+data.image[i].desc+'" class="img-responsive zoom-img" </div>	<div class="info-box"> <div class="info-content">');
+									document.write('<h4>'+data.image[i].h4+'</h4><span class="separator"></span><p>'+data.image[i].desc+'</p></div></div></a></div></div>');
 								}
 							</script>
 							<div class="clearfix"></div>
@@ -258,9 +253,9 @@
 					<script>
 						var f=0;
 						for(f=0;f<3;f++){
-							document.write('<div class="col-md-4 journal-grid"><a href="'+data.events[f].link+'" class="new-gri" data-toggle="modal" data-target="#myModal1"><img src="img/ev'+f+'.jpg" class="img-responsive" alt="'+data.events[f].Des+'"/></a>');
+							document.write('<div class="col-md-4 journal-grid"><a href="'+data.events[f].add+'" class="new-gri" data-toggle="modal" data-target="#myModal1"><img src="img/ev'+f+'.jpg" class="img-responsive" alt="'+data.events[f].Des+'"/></a>');
 							document.write('<div class="jou-text"><div class="jou-left"><h5>'+data.events[f].Date+'<span>'+data.events[f].Month+'</span></h5></div>');
-							document.write('<div class="jou-right"><h4><a href="'+data.events[f].link+'" class="new-gri" data-toggle="modal" data-target="#myModal1">'+data.events[f].Name+'</a></h4></div>div class="clearfix"></div></div>');
+							document.write('<div class="jou-right"><h4><a href="'+data.events[f].add+'" class="new-gri" data-toggle="modal" data-target="#myModal1">'+data.events[f].Name+'</a></h4></div>div class="clearfix"></div></div>');
 							document.write('<p class="jour-text">'+data.events[f].Des+'</p></div>');
 						}
 					</script>
